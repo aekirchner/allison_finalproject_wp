@@ -670,13 +670,10 @@ body.home #primary {
 	top:200px;
 }
 
-body.page-child #primary {
+body.page-child #primary, body.single-post-workout_food #primary {
+	background-color:black;
 	margin-left:30em;
 	top:100px;
-}
-
-body.page-child #primary {
-	background-color:black;
 }
 
 #primary h2, #primary h3 {
@@ -700,6 +697,7 @@ body.page-child #primary {
 #primary img {
 	float:left;
 	margin-right:.6em;
+	margin-bottom:2em;
 }
 
 #secondary {

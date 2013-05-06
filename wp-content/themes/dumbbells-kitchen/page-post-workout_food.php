@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Post-Workout Food
+ * Template Name: Post-Workout Food Section
  *
  * @package Dumbbells-Kitchen
  */
@@ -10,6 +10,7 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content post-workout-food-wrapper" role="main">
             <?php query_posts('post_type=post-workout_food'); ?>
+				<h2>Post-Workout Foods</h2>
 			<?php if(have_posts ()) while ( have_posts() ) : the_post(); ?>
 			
                 <h3><?php the_field('food_name'); ?></h3>
